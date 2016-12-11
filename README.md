@@ -7,5 +7,5 @@ We will be using maven-jar-plugin and maven-shade-plugin to construct a jar file
 * http://www.dropwizard.io/1.0.5/docs/getting-started.html#running-your-application
 ```
 mvn package
-java -jar target/hello-world-0.0.1-SNAPSHOT.jar server hello-world.yml
+java -jar target/dropwizard-sample-0.0.1-SNAPSHOT.jar server hello-world.yml
 ```
