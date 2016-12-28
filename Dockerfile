@@ -9,4 +9,4 @@ RUN java -version
 
 CMD ["java","-jar","dropwizard-sample-0.0.1-SNAPSHOT.jar","server","hello-world.yml"]
 
-EXPOSE 8080
+EXPOSE 8080-8081
